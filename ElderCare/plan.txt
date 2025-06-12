@@ -1,0 +1,34 @@
+ElderCareHybrid/
+│
+├── data/                             # 🔹 All data/config files
+│   ├── intents.json                  # User intents with patterns & responses
+│   ├── diet_data.json                # Recommended diets for elderly
+│   └── health_tips.json              # Health tips for elderly
+│
+├── model/                            # 🔹 NLP + RNN model and training
+│   ├── preprocess.py                 # Tokenization, padding, vocab builder
+│   ├── train_rnn.py                  # RNN model training script
+│   ├── rnn_model.pth                 # Trained PyTorch model
+│   └── rnn_model.py                  # Model class using LSTM/GRU
+│
+├── core/                             # 🔹 Main assistant logic
+│   ├── assistant.py                  # Assistant main logic & intent routing
+│   ├── speak.py                      # Text-to-speech using pyttsx3
+│   ├── listen.py                     # Speech-to-text using speech_recognition
+│   ├── diet_module.py                # Diet recommendations
+│   ├── health_module.py              # Health care advice
+│   └── companion_module.py           # Chat for emotional support
+│
+├── desktop_control/                  # 🔹 Handles desktop task commands
+│   ├── open_camera.py
+│   ├── open_chrome.py
+│   ├── open_notepad.py
+│   ├── open_calculator.py
+│   ├── play_music.py
+│   └── search_google.py
+│
+├── gui/                              # 🔹 (Optional) GUI for assistant
+│   └── gui.py                        # Tkinter-based GUI
+│
+├── requirements.txt                  # 🔹 All required pip libraries
+└── README.md                         # 🔹 Project overview and instructions

@@ -1,0 +1,285 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello dear! How can I assist you today?",
+        "Hi there! Need any help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Take care!",
+        "Goodbye! Stay healthy!",
+        "See you soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you fine?"
+      ],
+      "responses": [
+        "I'm doing well. How are you feeling today?",
+        "I'm here and ready to help you!"
+      ]
+    },
+    {
+      "tag": "diet_diabetes",
+      "patterns": [
+        "What food is good for diabetes?",
+        "Give me a diabetic diet plan"
+      ],
+      "responses": [
+        "For diabetes, a balanced diet with whole grains, vegetables, and lean proteins is ideal."
+      ]
+    },
+    {
+      "tag": "diet_bp",
+      "patterns": [
+        "Diet for BP",
+        "Food for hypertension"
+      ],
+      "responses": [
+        "Reduce salt and increase potassium-rich foods like bananas and spinach."
+      ]
+    },
+    {
+      "tag": "diet_cholesterol",
+      "patterns": [
+        "Diet for high cholesterol",
+        "What to eat for cholesterol?"
+      ],
+      "responses": [
+        "Oats, nuts, and fish are good for managing cholesterol. Avoid fried food."
+      ]
+    },
+    {
+      "tag": "health_sleep",
+      "patterns": [
+        "How to sleep better?",
+        "Any sleep advice?"
+      ],
+      "responses": [
+        "Stick to a schedule and avoid screens before bed."
+      ]
+    },
+    {
+      "tag": "health_exercise",
+      "patterns": [
+        "Exercise tips",
+        "Workout for seniors"
+      ],
+      "responses": [
+        "Walking and light yoga are great for staying active."
+      ]
+    },
+    {
+      "tag": "health_mental",
+      "patterns": [
+        "I'm feeling low",
+        "Mental health tips"
+      ],
+      "responses": [
+        "Try light meditation or call a loved one. Talking helps."
+      ]
+    },
+    {
+      "tag": "health_water",
+      "patterns": [
+        "Should I drink more water?",
+        "Water intake"
+      ],
+      "responses": [
+        "Yes! Aim for 6-8 glasses of water daily unless advised otherwise by your doctor."
+      ]
+    },
+    {
+      "tag": "companion_lonely",
+      "patterns": [
+        "I'm lonely",
+        "Talk to me"
+      ],
+      "responses": [
+        "You're not alone. I'm here. Want to hear a joke or a story?"
+      ]
+    },
+    {
+      "tag": "tell_joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh"
+      ],
+      "responses": [
+        "Why don\u2019t scientists trust atoms? Because they make up everything!"
+      ]
+    },
+    {
+      "tag": "tell_story",
+      "patterns": [
+        "Tell me a story",
+        "Story please"
+      ],
+      "responses": [
+        "Once upon a time, there was a curious assistant and a wise elder..."
+      ]
+    },
+    {
+      "tag": "open_camera",
+      "patterns": [
+        "Open camera",
+        "Start webcam"
+      ],
+      "responses": [
+        "Sure, opening your camera now."
+      ]
+    },
+    {
+      "tag": "open_chrome",
+      "patterns": [
+        "Open Chrome",
+        "Start browser"
+      ],
+      "responses": [
+        "Opening Chrome for you."
+      ]
+    },
+    {
+      "tag": "open_notepad",
+      "patterns": [
+        "Open Notepad",
+        "Start text editor"
+      ],
+      "responses": [
+        "Opening Notepad now."
+      ]
+    },
+    {
+      "tag": "open_calculator",
+      "patterns": [
+        "Open calculator",
+        "Start calculator"
+      ],
+      "responses": [
+        "Calculator coming right up!"
+      ]
+    },
+    {
+      "tag": "search_google",
+      "patterns": [
+        "Search for news",
+        "Look up recipes"
+      ],
+      "responses": [
+        "Let me search that for you."
+      ]
+    },
+    {
+      "tag": "play_music",
+      "patterns": [
+        "Play music",
+        "Start music"
+      ],
+      "responses": [
+        "Playing your favorite songs."
+      ]
+    },
+    {
+      "tag": "set_reminder",
+      "patterns": [
+        "Remind me to take medicine",
+        "Set a reminder"
+      ],
+      "responses": [
+        "Reminder set!"
+      ]
+    },
+    {
+      "tag": "check_time",
+      "patterns": [
+        "What time is it?",
+        "Current time?"
+      ],
+      "responses": [
+        "Let me check the time for you."
+      ]
+    },
+    {
+      "tag": "check_date",
+      "patterns": [
+        "What date is today?",
+        "Today's date?"
+      ],
+      "responses": [
+        "Let me tell you today\u2019s date."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?",
+        "Weather today"
+      ],
+      "responses": [
+        "Let me check the weather for you."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's in the news?",
+        "News today"
+      ],
+      "responses": [
+        "Here are today\u2019s headlines."
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "Tell me a quote",
+        "Give me inspiration"
+      ],
+      "responses": [
+        "'The best way to get started is to quit talking and begin doing.' - Walt Disney"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn\u2019t understand. Could you say it again?",
+        "I'm learning. Please rephrase your request."
+      ]
+    }
+  ]
+}
